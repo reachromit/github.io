@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './explorer/App.css';
+import './index.css';
 import $ from 'jquery'
 import MobileIcon from './site/menuIcon'
 import MobileMenu from './site/mobileMenu'

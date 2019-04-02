@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import config from './explorer/config';
 import Explorer from './explorer/Explorer';
 import Catlouge from './explorer/Catlouge';
