@@ -1,0 +1,20 @@
+.board {
+    margin: 0 auto;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 50%;
+    font-size: 0;
+}
+
+.boardtile {
+    background-color: white;
+    border: 1px solid black;
+
+    color: black;
+    height: 98px;
+    width: 98px;
+    display: inline-block;
+    font-size: x-large;
+    text-align: center;
+}

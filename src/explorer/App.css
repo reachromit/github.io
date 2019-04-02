@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.imageMenu {
+  width: 100%;
+  height: 500px
+}
+
+.imageFort {
+  width: 100%;
+  height: 300px
+}
+
+.detailImageFort {
+  width: 100%;
+  height: 200px;
+  padding: 10px
+}
+
+.myClass {
+  text-align: center;
+}
+
+.padd {
+  padding: 10px;
+}
+
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.iframe-container iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/* 4x3 Aspect Ratio */
+.iframe-container-4x3 {
+  padding-top: 75%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Modal box */
+.modalBox {
+  display: none;
+  position: fixed;
+  padding: 10px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .5)
+}
+
+.modalBox.active {
+  display: block;
+}
+
+.modalBox--container {
+  position: absolute;
+  width: calc(100% - 20px);
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  background: white;
+  padding: 10px;
+}
+
+.modalBox--close {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  left: auto;
+  right: 10px;
+  cursor: pointer;
+}
+
+.modalBox--close:after {
+  content: "x";
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: black;
+  font-size: 12px;
+}
+
+.modalBox--container p {
+  text-align: center;
+  font-size: 14px;
+  color: black;
+  padding-top: 20px;
+
+}
